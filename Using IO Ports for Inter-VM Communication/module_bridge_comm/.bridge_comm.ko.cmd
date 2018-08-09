@@ -1,0 +1,1 @@
+cmd_/home/anway/virt_P2/module_bridge_comm/bridge_comm.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/anway/virt_P2/module_bridge_comm/bridge_comm.ko /home/anway/virt_P2/module_bridge_comm/bridge_comm.o /home/anway/virt_P2/module_bridge_comm/bridge_comm.mod.o
